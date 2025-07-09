@@ -1,0 +1,4 @@
+#ifndef IFILEMANAGER_H
+#define IFILEMANAGER_H
+
+#endif //IFILEMANAGER_H

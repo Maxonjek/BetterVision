@@ -1,0 +1,4 @@
+#ifndef IFILEWRITER_H
+#define IFILEWRITER_H
+
+#endif //IFILEWRITER_H

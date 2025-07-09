@@ -1,0 +1,6 @@
+#ifndef ICAMERAOUTPUT_H
+#define ICAMERAOUTPUT_H
+
+
+
+#endif //ICAMERAOUTPUT_H

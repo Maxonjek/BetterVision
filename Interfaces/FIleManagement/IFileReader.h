@@ -1,0 +1,4 @@
+#ifndef IFILEREADER_H
+#define IFILEREADER_H
+
+#endif //IFILEREADER_H

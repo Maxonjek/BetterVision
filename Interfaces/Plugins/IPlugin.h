@@ -1,0 +1,6 @@
+#ifndef IPLUGIN_H
+#define IPLUGIN_H
+
+//TODO: PLUGIN REGISTARTION
+
+#endif //IPLUGIN_H
