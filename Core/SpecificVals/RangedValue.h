@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <iostream>
 #include <limits>
-#include <type_traits>
 
 namespace RV {
     template<typename T>
@@ -12,9 +11,10 @@ namespace RV {
         static_assert(std::is_arithmetic_v<T>, "RangedValue requires arithmetic type");
 
     public:
-        explicit RangedValue(T minVal = std::numeric_limits<T>::lowest(),
-                    T maxVal = std::numeric_limits<T>::infinity(),
-                    T value = T())
+        explicit RangedValue(T value = T(),
+                    T minVal = std::numeric_limits<T>::lowest(),
+                    T maxVal = std::numeric_limits<T>::max()
+                    )
             : minVal_(minVal), maxVal_(maxVal), val_(Range(value))
         {}
 
